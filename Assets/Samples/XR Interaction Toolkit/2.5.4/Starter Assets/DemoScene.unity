@@ -7257,8 +7257,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 0}
-  m_Colliders: []
+  m_InteractionManager: {fileID: 510622762}
+  m_Colliders:
+  - {fileID: 913809242}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -10087,7 +10088,7 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -11063,7 +11064,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e557bbab42f8e4046b98eedb5da61547, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 364ba641cea7fc44bbb124f520a857a5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -11582,8 +11583,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.06542742, y: 1, z: 0.2508155}
-  m_Center: {x: 0.034562826, y: 0, z: -0.08818346}
+  m_Size: {x: 0.06542742, y: 1, z: 0.09420729}
+  m_Center: {x: 0.034562826, y: 0, z: -0.009879351}
 --- !u!23 &1550368337
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12136,6 +12137,14 @@ PrefabInstance:
     - target: {fileID: 400020, guid: 0749e30cf9ee8c6448bd2a82cd428c5f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 400030, guid: 0749e30cf9ee8c6448bd2a82cd428c5f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.019
+      objectReference: {fileID: 0}
+    - target: {fileID: 400030, guid: 0749e30cf9ee8c6448bd2a82cd428c5f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.169
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20482,7 +20491,7 @@ MonoBehaviour:
         m_Action: Gatillo
         m_Flags: 0
       m_Flags: 0
-    m_Reference: {fileID: -2439264783773714294, guid: 0be0028c24f2a4c14a96b6aa39055933, type: 3}
+    m_Reference: {fileID: -5982496924579745919, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   distanciaCanvas: 9
   alturaCanvas: 1.2
 --- !u!1001 &2035079523
